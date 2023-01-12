@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.main {
+    max-width: 1000px;
+}
+
+.main .col {
+    background-color: #f2f2f2;
+    display: flex;
+}
+
+.row-1 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 450px;
+    padding: 40px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.row-1 .icon-1 {
+    padding-bottom: 25px;
+}
+
+.row-1 h2 {
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 30px;
+}
+
+.row-1 p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15.8px;
+    line-height: 1.5rem;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 75px;
+}
+
+.row-1 a {
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 15px 30px;
+}
+
+.row-2 {
+    height: 450px;
+    padding: 40px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.row-2 .icon-2 {
+    padding-bottom: 25px;
+}
+
+.row-2 h2 {
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 30px;
+}
+
+.row-2 p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15.8px;
+    line-height: 1.5rem;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 75px;
+}
+
+.row-2 a {
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 15px 30px;
+}
+
+.row-3 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 450px;
+    padding: 40px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.row-3 .icon-3 {
+    padding-bottom: 25px;
+}
+
+.row-3 h2 {
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 30px;
+}
+
+.row-3 p {
+    margin-right: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15.8px;
+    line-height: 1.5rem;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 75px;
+}
+
+.row-3 a {
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 15px 30px;
+}
+
+@media only screen and (max-width: 844px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .main {
+        display: flex;
+        align-items: center;
+        width: 85%;
+        overflow: scroll;
+        flex-wrap: wrap;
+    }
+    .col {
+        margin: 30px auto;
+        flex-direction: column;
+    }
+    .row-1 {
+        border-radius: 7px 7px 0 0;
+    }
+    .row-3 {
+        border-radius: 0 0 7px 7px;
+    }
+    col p {
+        font-size: 0.77rem;
+    }
+}
